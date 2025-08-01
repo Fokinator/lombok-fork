@@ -15,8 +15,8 @@ For complete project information, a short tutorial on what lombok does, and how 
 
 You can review our security policy via [SECURITY.md]
 
-[LICENSE]: https://github.com/projectlombok/lombok/blob/master/LICENSE
-[AUTHORS]: https://github.com/projectlombok/lombok/blob/master/AUTHORS
-[SECURITY.md]: https://github.com/projectlombok/lombok/blob/master/SECURITY.md
+[LICENSE]: https://github.com/Fokinator/lombok-fork/blob/master/LICENSE
+[AUTHORS]: https://github.com/Fokinator/lombok-fork/blob/master/AUTHORS
+[SECURITY.md]: https://github.com/Fokinator/lombok-fork/blob/master/SECURITY.md
 [projectlombok.org]: https://projectlombok.org/
 [tidelift subscription]: https://tidelift.com/subscription/pkg/maven-org-projectlombok-lombok?utm_source=maven-org-projectlombok-lombok&utm_medium=referral&campaign=website

@@ -1,5 +1,7 @@
 # Project Lombok
 
+**DISCLAIMER: I do not own Project Lombok and/or any of its affiliates. I only add some more useful annotations. The [AUTHORS] file specifies the actual owners of the project.**
+
 **Project Lombok** is a java library that automatically plugs into your editor and build tools, spicing up your java.
 Never write another getter or equals method again, with one annotation your class has a fully featured builder, automate your logging variables, and much more.
 

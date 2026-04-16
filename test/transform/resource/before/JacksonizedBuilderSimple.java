@@ -1,4 +1,6 @@
 //version 8: Jackson deps are at least Java7+.
+//CONF: lombok.jacksonized.jacksonVersion += 2
+//CONF: lombok.jacksonized.jacksonVersion += 3
 import java.util.List;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

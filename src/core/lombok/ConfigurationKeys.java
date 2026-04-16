@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2013-2025 The Project Lombok Authors.
+ * Copyright (C) 2013-2026 The Project Lombok Authors.
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -29,6 +29,7 @@ import lombok.core.configuration.CheckerFrameworkVersion;
 import lombok.core.configuration.ConfigurationKey;
 import lombok.core.configuration.FlagUsageType;
 import lombok.core.configuration.IdentifierName;
+import lombok.core.configuration.JacksonVersion;
 import lombok.core.configuration.LogDeclaration;
 import lombok.core.configuration.NullAnnotationLibrary;
 import lombok.core.configuration.NullCheckExceptionType;
@@ -701,7 +702,7 @@ public class ConfigurationKeys {
 	 * If set, <em>any</em> usage of {@code @WithBy} results in a warning / error.
 	 */
 	public static final ConfigurationKey<FlagUsageType> WITHBY_FLAG_USAGE = new ConfigurationKey<FlagUsageType>("lombok.withBy.flagUsage", "Emit a warning or error if @WithBy is used.") {};
-
+	
 	// ----- Jacksonized -----
 	
 	/**
@@ -710,6 +711,16 @@ public class ConfigurationKeys {
 	 * If set, <em>any</em> usage of {@code @Jacksonized} results in a warning / error.
 	 */
 	public static final ConfigurationKey<FlagUsageType> JACKSONIZED_FLAG_USAGE = new ConfigurationKey<FlagUsageType>("lombok.jacksonized.flagUsage", "Emit a warning or error if @Jacksonized is used.") {};
+	
+	/**
+	 * lombok configuration: {@code lombok.jacksonized.jacksonVersion} += {@code 2} / {@code 3}.
+	 * 
+	 * Which version of the jackson annotations to generate.
+	 * 
+	 * If no values specified: Generate version 2 and emit a warning to explicitly choose a jackson version in your {@code lombok.config}.
+	 */
+	public static final ConfigurationKey<List<JacksonVersion>> JACKSONIZED_JACKSON_VERSION = new ConfigurationKey<List<JacksonVersion>>("lombok.jacksonized.jacksonVersion", "The jackson major version(s) to generate (default: 2 + warning)") {};
+	
 	
 	// ----- Configuration System -----
 	
